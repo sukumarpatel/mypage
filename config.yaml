@@ -96,7 +96,7 @@ params:
         - point: Technical lead for the Indian team managing the Hong Kong, Singapore and Japan equities trade settlement system.
         - point: Took complete ownership of the settlement systems in a gradual transition from Hong Kong to India.
         - point: Extensive exposure to Oracle and Unix server migration and DR setup
-    - company: "TCS "
+    - company: "TCS"
       # id: "amazon-developer" // use this, when you want to change the id(used for navigation)
       role: "ASE"
       startdate: Feb 2006
@@ -108,7 +108,7 @@ params:
   disable_education: false
   education:
     - degree: "B.tech"
-      branch: "Computer Scienec"
+      branch: "Computer Science & Engineering"
       university: "Utkal university"
       startedyear: "2001"
       graduation: "2005"
@@ -133,23 +133,18 @@ params:
       description: "Description of project"
 
   # Achievements
-  disable_achievements: true
+  disable_achievements: false
   achievements:
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
-      url: https://example.com
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
-      # url: https://example.com
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
-
+    - point: 14+ years of experience in developing Java based software design and development
+    - point: 3+ years of experience of designing and architecting solutions using various Azure technologies,
+    - point: 2+ years of leading the Azure DevOps transformation for Data Technology.
+    - point: 2+ years of designing and implementing solutions on Azure Kubernetes Services
+    - point: 7+ years of experience of working on Spring based applications
+    - point: Extensive experience of working on database table design, high volume data extraction and loading.
+    - point: 11+ years of experience in Equities reference and market data, and trade settlements
+    - point: Good understanding of Azure, Unix and Oracle infrastructure
+    - point: Experienced in handling servers and technology migration
+    
   # Contact
   disable_contact: false
   contact_content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!

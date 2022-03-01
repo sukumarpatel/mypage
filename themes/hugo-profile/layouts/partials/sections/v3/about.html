@@ -4,7 +4,7 @@
       <div class="text-dark text-center h3">About Me</div>
       <div class="row justify-content-center about">
         <div class="col-md-6 about-content">
-          <div data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="50" data-aos-once="true"
+          <div data-aos="fade-up" data-aos-offset="50" data-aos-delay="50" data-aos-once="false"
             data-aos-duration="900">
             <div class="px-2">
               {{ .Site.Params.descripe_l1_person | markdownify }}
@@ -23,7 +23,7 @@
           </div>
         </div>
         <div class="col-md-5 about-skill">
-          <div data-aos="zoom-in-down" data-aos-offset="50" data-aos-delay="50" data-aos-once="true"
+          <div data-aos="fade-up" data-aos-offset="50" data-aos-delay="50" data-aos-once="false"
             data-aos-duration="1000">
             <div class="text-secondary text-center h4">Skills</div>
             {{ range .Site.Params.skills }}
