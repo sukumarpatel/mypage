@@ -14,7 +14,7 @@ markup:
       unsafe: true
 
 taxonomies:
-  tag: "tags"
+  tag: "abc"
   category: "categories"
 
 enableEmoji: true
@@ -60,6 +60,7 @@ params:
   customSocialLinks:
     - fontAwesomeIconName: "fa fa-envelope"
       url: "mailto://sukumar.patel@gmail.com"
+      name: GMail
 
   # About
   disable_about: false
