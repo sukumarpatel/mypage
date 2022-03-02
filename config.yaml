@@ -51,8 +51,9 @@ params:
   disable_home: false
   profile_image: "/images/profile.png"
   name: "Sukumar Patel"
-  namecolor: ffc107
+  namecolor: 6c757d
   profession: "Software Professional"
+  hitext: "Hello, I'm"
   linkedin: "https://www.linkedin.com/in/sukumarpatel/"
 
   # Custom social links
@@ -103,6 +104,8 @@ params:
       enddate: Aug 2009
       featuredpoints:
         - point: Worked on multiple applications for GE Aviation.
+        - point: Worked on and explored Spring, Struts, JSF and Grails
+        - point: Gained exposure to working with Oracle databses and supporting systems in production
 
   # Education
   disable_education: false
@@ -139,7 +142,6 @@ params:
     - point: 3+ years of experience of designing and architecting solutions using various Azure technologies,
     - point: 2+ years of leading the Azure DevOps transformation for Data Technology.
     - point: 2+ years of designing and implementing solutions on Azure Kubernetes Services
-    - point: 7+ years of experience of working on Spring based applications
     - point: Extensive experience of working on database table design, high volume data extraction and loading.
     - point: 11+ years of experience in Equities reference and market data, and trade settlements
     - point: Good understanding of Azure, Unix and Oracle infrastructure
@@ -151,7 +153,7 @@ params:
   email: "sukumar.patel@gmail.com"
 
   # Footer
-  socialiconfooter: false
+  socialiconfooter: true
   recentposts: false
 
   # Blog

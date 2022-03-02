@@ -5,7 +5,7 @@
       <div class="col-md-7 pb-2 name-container">
         <div class="name" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
           data-aos-once="false">
-          <div style="color: #{{ .Site.Params.namecolor }};" class="hi-text" data-aos="fade-up" data-aos-offset="50"
+          <div class="text-muted" style="color: #{{ .Site.Params.namecolor }};" data-aos="fade-up" data-aos-offset="50"
             data-aos-delay="50" data-aos-once="false" data-aos-duration="900">
             {{ .Site.Params.hitext | default "Hi there, I'm" }}
           </div>
@@ -78,14 +78,6 @@
             {{ end }}
           </div>
         </div>
-
-        <div class="pt-4 btn-intro">
-          <a href="#about" class="btn-know btn btn-outline-info" data-aos="fade-up" data-aos-offset="50"
-            data-aos-delay="50" data-aos-duration="900" data-aos-once="false">
-            About me
-          </a>
-        </div>
-
       </div>
       <div class="col-md-5 text-center pt-2 pt-md-0 position-relative">
         {{ if .Site.Params.profile_image }}
@@ -93,7 +85,6 @@
           src="{{ .Site.Params.profile_image }}" alt="{{ .Site.Params.name }}" class="rounded">
         {{ end }}
       </div>
-
     </div>
   </div>
 </div>
